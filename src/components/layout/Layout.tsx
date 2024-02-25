@@ -176,11 +176,11 @@ const Layout = ({
           href="/images/favicon.png"
           type="image/x-icon"
         />
-        <title>Xpovio | Digital Agency Creative Portfolio Template</title>
+        <title>Brainstorm | Веб студия</title>
         <meta name="keywords" content="creative, agency, portfolio" />
         <meta
           name="description"
-          content="Digital Agency Creative Portfolio Template"
+          content="Мы являемся компанией полного цикла, специализирующейся на дизайне, разработке и цифровом маркетинге сайтов, SEO, контент-маркетинге и развитии брендов."
         />
       </Head>
       <div className={combinedClassName}>
