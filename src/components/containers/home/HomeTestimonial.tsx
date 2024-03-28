@@ -16,7 +16,7 @@ const HomeTestimonial = () => {
     setNextSlideIndex(nextIndex);
   };
   return (
-    <section className="section testimonial pt-0 position-relative">
+    <section className="section testimonial pt-0 position-relative" style={{marginTop: 100}}>
       <div className="testimonial__text-slider-w">
         <Swiper
           slidesPerView="auto"
@@ -37,7 +37,7 @@ const HomeTestimonial = () => {
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                  client&apos;s testimonial
+                  отзывы клиентов
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -47,7 +47,7 @@ const HomeTestimonial = () => {
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                  client&apos;s testimonial
+                  отзывы клиентов
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -57,7 +57,7 @@ const HomeTestimonial = () => {
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                  client&apos;s testimonial
+                  отзывы клиентов
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -67,7 +67,7 @@ const HomeTestimonial = () => {
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                  client&apos;s testimonial
+                  отзывы клиентов
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -77,7 +77,7 @@ const HomeTestimonial = () => {
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                  client&apos;s testimonial
+                  отзывы клиентов
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -87,7 +87,7 @@ const HomeTestimonial = () => {
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                  client&apos;s testimonial
+                  отзывы клиентов
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -97,7 +97,7 @@ const HomeTestimonial = () => {
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                  client&apos;s testimonial
+                  отзывы клиентов
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -136,7 +136,7 @@ const HomeTestimonial = () => {
                     <div className="row gaper align-items-center">
                       <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
-                          <Image src={sthumb} alt="Image" />
+                          <Image src={sthumb} alt="Image" style={{height: 500}} />
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
@@ -159,16 +159,13 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                              Заказала у них сайт ничего о них не зная. Осталась супер довольна. Весь процесс проходил легко и Эльдар супер профессионал, понимал с полуслова и делал все быстро и как надо.
+                              Отличная работа 👌
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Сара Кудайберген</h5>
+                            <p>ПСИХОЛОГ</p>
                           </div>
                         </div>
                       </div>
@@ -180,7 +177,7 @@ const HomeTestimonial = () => {
                     <div className="row gaper align-items-center">
                       <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
-                          <Image src={sthumbtwo} alt="Image" />
+                          <Image src={sthumbtwo} alt="Image" style={{height: 500}}/>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
@@ -203,16 +200,12 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                              Обратилась к ним без опыта - результат порадовал! Процесс был легким, понимали с полуслова и делали всё оперативно. Всё получилось идеально. Рекомендую!
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Турдугулова Алия</h5>
+                            <p>ПСИХОЛОГ</p>
                           </div>
                         </div>
                       </div>
@@ -224,7 +217,7 @@ const HomeTestimonial = () => {
                     <div className="row gaper align-items-center">
                       <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
-                          <Image src={sthumbthree} alt="Image" />
+                          <Image src={sthumbthree} alt="Image" style={{height: 500}}/>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
@@ -247,16 +240,12 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                              Как стоматолог с многолетним опытом, я был приятно удивлен качеством работы этой компании. Их профессионализм и внимание к деталям сразу бросились в глаза. Результат превзошел мои ожидания!
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Хайбулин Марат</h5>
+                            <p>Стоматолог</p>
                           </div>
                         </div>
                       </div>

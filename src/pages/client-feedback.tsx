@@ -6,7 +6,7 @@ import ClientFeedbackMain from "@/components/containers/ClientFeedbackMain";
 const ClientFeedback = () => {
   return (
     <Layout header={2} footer={5} video={0}>
-      <CmnBanner title="Client's Feedback" navigation="Client's Feedback" />
+      <CmnBanner title="Отзывы клиентов" navigation="Отзывы клиентов" />
       <ClientFeedbackMain />
     </Layout>
   );

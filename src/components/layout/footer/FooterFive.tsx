@@ -113,24 +113,22 @@ const FooterFive = () => {
             <div className="footer-two__left">
               <div className="logo">
                 <Link href="/">
-                  <Image src={logo} priority alt="Image" />
+                  <Image src={logo} priority alt="Image" style={{width: 209}} />
                 </Link>
               </div>
               <div className="paragraph">
                 <p>
-                  Welcome to our digital agency We specialize in helping
-                  business most like yours succeed online. From website design
-                  and development.
+                  Добро пожаловать в нашу веб-студию Мы специализируемся на оказании помощи таким же компаниям, как и вы, в достижении успеха в Интернете. От проектирования и разработки веб-сайтов.
                 </p>
               </div>
               <div className="section__content-cta">
                 <h2>
                   <Link
-                    href="mailto:info@gmail.com"
+                    href="mailto:info@brainstrm.kz"
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info@gmail.com
+                    info@brainstrm.kz
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"
@@ -148,26 +146,26 @@ const FooterFive = () => {
           <div className="col-12 col-lg-7 col-xl-7 offset-xl-1 col-xxl-5 offset-xxl-3">
             <div className="footer-two__right">
               <div className="social justify-content-start justify-content-lg-start">
-                <Link href="https://www.facebook.com/" target="_blank">
-                  <i className="fa-brands fa-facebook-f"></i>
-                  <span>Facebook</span>
-                </Link>
-                <Link href="https://www.twitter.com/" target="_blank">
-                  <i className="fa-brands fa-twitter"></i>
-                  <span>Twitter</span>
-                </Link>
-                <Link href="https://www.pinterest.com/" target="_blank">
-                  <i className="fa-brands fa-linkedin-in"></i>
-                  <span>Linkedin</span>
-                </Link>
-                <Link href="https://www.instagram.com/" target="_blank">
+                {/*<Link href="https://www.facebook.com/" target="_blank">*/}
+                {/*  <i className="fa-brands fa-facebook-f"></i>*/}
+                {/*  <span>Facebook</span>*/}
+                {/*</Link>*/}
+                {/*<Link href="https://www.twitter.com/" target="_blank">*/}
+                {/*  <i className="fa-brands fa-twitter"></i>*/}
+                {/*  <span>Twitter</span>*/}
+                {/*</Link>*/}
+                {/*<Link href="https://www.pinterest.com/" target="_blank">*/}
+                {/*  <i className="fa-brands fa-linkedin-in"></i>*/}
+                {/*  <span>Linkedin</span>*/}
+                {/*</Link>*/}
+                <Link href="https://www.instagram.com/brainstorm_etr" target="_blank">
                   <i className="fa-brands fa-instagram"></i>
                   <span>Instagram</span>
                 </Link>
-                <Link href="https://www.dribble.com/" target="_blank">
-                  <i className="fa-light fa-basketball"></i>
-                  <span>Dribble</span>
-                </Link>
+                {/*<Link href="https://www.dribble.com/" target="_blank">*/}
+                {/*  <i className="fa-light fa-basketball"></i>*/}
+                {/*  <span>Dribble</span>*/}
+                {/*</Link>*/}
               </div>
               <div className="footer__single-meta section__content-cta">
                 <Link
@@ -175,15 +173,15 @@ const FooterFive = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                  Иманбаева 10, Астана, Казахстан
                 </Link>
-                <Link href="tel:406-555-0120">
+                <Link href="tel:+77713758699">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  (406) 555-0120
+                  +7 771 375 86 99
                 </Link>
-                <Link href="mailto:info@xpovio.com">
+                <Link href="mailto:info@brainstrm.kz">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@xpovio.com
+                  info@brainstrm.kz
                 </Link>
               </div>
             </div>
@@ -197,35 +195,35 @@ const FooterFive = () => {
               <div className="footer__copyright-text text-center text-xl-start">
                 <p>
                   Copyright &copy;
-                  <span id="copyYear">{currentYear}</span> Xpovio by{" "}
+                  <span id="copyYear">{currentYear}</span> Brainstorm by{" "}
                   <Link
-                    href="https://themeforest.net/user/UltraDevs"
-                    target="_blank"
+
+                      href="/"
+                      target="_blank"
                   >
-                    {" "}
-                    UltraDevs
-                  </Link>{" "}
-                  . All Rights Reserved
+                    ИП "SVOY" БИН: 020608551294{" "}
+                  </Link>
+                  . Все права защищены
                 </p>
               </div>
             </div>
             <div className="col-12 col-xl-6">
               <ul className="justify-content-center justify-content-xl-end">
                 <li>
-                  <Link href="/">Home</Link>
+                  <Link href="/">Домашняя</Link>
                 </li>
                 <li>
-                  <Link href="about-us">About</Link>
+                  <Link href="about-us">О нас</Link>
                 </li>
-                <li>
-                  <Link href="our-services">Services</Link>
-                </li>
-                <li>
-                  <Link href="blog">Blog</Link>
-                </li>
-                <li>
-                  <Link href="contact-us">Contact</Link>
-                </li>
+                {/*<li>*/}
+                {/*  <Link href="our-services">Services</Link>*/}
+                {/*</li>*/}
+                {/*<li>*/}
+                {/*  <Link href="blog">Blog</Link>*/}
+                {/*</li>*/}
+                {/*<li>*/}
+                {/*  <Link href="contact-us">Contact</Link>*/}
+                {/*</li>*/}
               </ul>
             </div>
           </div>

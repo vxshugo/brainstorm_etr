@@ -15,11 +15,11 @@ const Home = () => {
       <HomeOneBanner />
       <Agency />
       <PortfolioText />
-      <HomeOffer />
+      {/*<HomeOffer />*/}
       <HomeTestimonial />
-      <HomeBlog />
-      <HomeSponsor />
-      <NextPage />
+      {/*<HomeBlog />*/}
+      {/*<HomeSponsor />*/}
+      {/*<NextPage />*/}
     </Layout>
   );
 };

@@ -25,7 +25,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
                     <li className="breadcrumb-item">
                       <Link href="/">
                         <i className="fa-solid fa-house"></i>
-                        Home
+                        Домашняя
                       </Link>
                     </li>
                     {parent && (
@@ -43,9 +43,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
                 <p className="primary-text">
-                  We&apos;re an UK-based top-notch design agency committed to
-                  partnering with good companies and hiring the right people for
-                  the right roles.
+                  Мы - высококлассная веб студия в Казахстане, которое сотрудничает с хорошими компаниями и индивидуальными предпринимателями
                 </p>
               </div>
             </div>

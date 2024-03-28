@@ -72,7 +72,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__header nav-fade">
             <div className="logo">
               <Link href="/">
-                <Image src={logo} alt="Image" title="Image" priority />
+                <Image src={logo} style={{width: 200}} alt="Image" title="Image" priority />
               </Link>
             </div>
             <button
@@ -86,17 +86,17 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__list">
             <div className="navbar__menu">
               <ul>
-                <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label ${isSubMenuButton(
-                      "home"
-                    )}`}
-                    onClick={() => handleSubmenu("home")}
-                  >
-                    ДОМАШНЯЯ
-                  </button>
-                </li>
+                {/*<li className="navbar__item navbar__item--has-children nav-fade">*/}
+                {/*  <button*/}
+                {/*    aria-label="dropdown menu"*/}
+                {/*    className={`navbar__dropdown-label ${isSubMenuButton(*/}
+                {/*      "home"*/}
+                {/*    )}`}*/}
+                {/*    onClick={() => handleSubmenu("home")}*/}
+                {/*  >*/}
+                {/*    ДОМАШНЯЯ*/}
+                {/*  </button>*/}
+                {/*</li>*/}
                 <li className="navbar__item nav-fade">
                   <Link href="about-us">О НАС</Link>
                 </li>
@@ -139,45 +139,38 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                   {/*  </li>*/}
                   {/*</ul>*/}
                 </li>
-                <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label ${isSubMenuButton(
-                      "pages"
-                    )}`}
-                    onClick={() => handleSubmenu("pages")}
-                  >
-                    Pages
-                  </button>
-                  <ul className={`navbar__sub-menu ${isSubMenuOpen("pages")}`}>
-                    <li>
-                      <Link href="portfolio">Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link href="contact-us">Contact Us</Link>
-                    </li>
-                  </ul>
-                </li>
+                {/*<li className="navbar__item navbar__item--has-children nav-fade">*/}
+                {/*  <button*/}
+                {/*    aria-label="dropdown menu"*/}
+                {/*    className={`navbar__dropdown-label ${isSubMenuButton(*/}
+                {/*      "pages"*/}
+                {/*    )}`}*/}
+                {/*    onClick={() => handleSubmenu("pages")}*/}
+                {/*  >*/}
+                {/*    Pages*/}
+                {/*  </button>*/}
+                {/*  <ul className={`navbar__sub-menu ${isSubMenuOpen("pages")}`}>*/}
+                {/*    <li>*/}
+                {/*      <Link href="portfolio">Portfolio</Link>*/}
+                {/*    </li>*/}
+                {/*    <li>*/}
+                {/*      <Link href="contact-us">Contact Us</Link>*/}
+                {/*    </li>*/}
+                {/*  </ul>*/}
+                {/*</li>*/}
               </ul>
             </div>
           </div>
           <div className="offcanvas-menu__options nav-fade">
             <div className="offcanvas__mobile-options d-flex">
-              <Link href="contact-us" className="btn btn--secondary">
+              <Link href="https://wa.me/77713758699?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%81%D0%B0%D0%B9%D1%82" className="btn btn--secondary">
                 ЗАПИСАТЬСЯ
               </Link>
             </div>
           </div>
           <div className="offcanvas-menu__social social nav-fade">
             <Link
-              href="https://www.facebook.com/"
-              target="_blank"
-              aria-label="share us on facebook"
-            >
-              <i className="fa-brands fa-facebook-f"></i>
-            </Link>
-            <Link
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/brainstorm_etr/"
               target="_blank"
               aria-label="share us on instagram"
             >
