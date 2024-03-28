@@ -108,7 +108,7 @@ const Footer = () => {
                         href="/"
                         target="_blank"
                       >
-                        ИП "SVOY" БИН: 020608551294{" "}
+                        ИП &laquo;SVOY&raquo; БИН: 020608551294{" "}
                       </Link>
                       . Все права защищены
                     </p>
