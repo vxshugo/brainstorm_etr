@@ -19,7 +19,7 @@ const Footer = () => {
               </Link>
               <div className="footer__single-meta">
                 <Link
-                  href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
+                  href="https://go.2gis.com/myoke"
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="footer__cta text-start">
-                <Link href="contact-us" className="btn btn--secondary">
+                <Link href="https://wa.me/77713758699?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%81%D0%B0%D0%B9%D1%82" className="btn btn--secondary">
                   Заказать звонок
                 </Link>
               </div>
